@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="Fstyle.css">
+
+	<script src="https://kit.fontawesome.com/4bc9d89a80.js" crossorigin="anonymous"></script>
+	<title>Feedback</title>
+</head>
+<body>
+	<div id="parent">
+	<nav>
+		<div class="logo">
+			Bilingual Dictionary
+		</div>
+		<input type="checkbox" id="checkbox">
+		<label for="checkbox" id="icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+</svg>
+</label>
+		<ul>
+			<li><a href="Index.html">Home</a></li>
+			<li><a href="About Us.html">About us</a></li>
+			<li><a href="#" class="active">Feedback</a></li>
+			
+			<li><a href="login_page.html">Sign In/Sign Up</a></li>
+
+		</ul>
+	</nav>
+
+	<div class="container">
+		<span class="big-circle"></span>
+		<div class="form">
+			<div class="contact-info">
+				<h3 class="title">Let's get in touch</h3>
+				<p class="text">
+					Please share with us any queries, feedback you have. we will be happy to answer.
+				</p>
+				<div class="info">
+					<div class="information">
+						<i class="fa-regular fa-map"></i>
+						<p>Muscat, Oman</p>
+					</div>
+					<div class="information">
+						<i class="fa-regular fa-envelope"></i>
+						<p>22F23425@mec.edu.om</p>
+					</div>
+					<div class="information">
+						<i class="fa-solid fa-phone"></i>
+						<p>+968 92928046</p>
+					</div>
+				</div>
+				<div class="social-media">
+					<p>connect with us :</p>
+					<div class="social-icons">
+						<a href="#">
+							<i class="fab fa-facebook-f"></i>
+						</a>
+						<a href="#">
+							<i class="fab fa-twitter"></i>
+						</a>
+						<a href="#">
+							<i class="fab fa-instagram"></i>
+						</a>
+						<a href="#">
+							<i class="fab fa-linkedin-in"></i>
+						</a>
+					</div>
+					
+				</div>
+			</div>
+			<div class="contact-form">
+				<span class="circle one"></span>
+				<span class="circle two"></span>
+
+				<form action="connectFB.php", method="post">
+				<h3 class="title">Contact Us</h3>
+				<div class="input-container ">
+					<input type="text" name="Username" id="Username" class="input"/>
+					<label for="">Username</label>
+					<span>Username</span>
+				</div>
+				<div class="input-container">
+					<input type="email" name="Email" id="Email" class="input" />
+					<label for="">Email</label>
+					<span>Email</span>
+				</div>
+				<div class="input-container">
+					<input type="tel" name="Phone" id="Phone" class="input" />
+					<label for="">Phone</label>
+					<span>Phone</span>
+				</div>
+				<div class="input-container">
+					<textarea name="Message"  id="Message" class="input"></textarea>
+					<label for="">Message</label>
+					<span>Message</span>
+				</div>
+				<input type="submit" value="Send" class="btn" />
+			</form>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+	<script src="app.js" defer></script>
+
+</body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE HTML>
+<HTML Lang="en">
+
+<head> 
+             <title>SignUp & Login</title>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<link rel="stylesheet" type="text/css" href="Lstyle.css">
+
+</head>
+<body bgcolor="powderblue">
+	<div id="parent">
+	<nav>
+		<div class="logo">
+			Bilingual Dictionary
+		</div>
+		<input type="checkbox" id="checkbox">
+		<label for="checkbox" id="icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+</svg>
+</label>
+		<ul>
+			<li><a href="Index.html">Home</a></li>
+			<li><a href="aboutus(FJ).html">ABout Us</a></li>
+			<li><a href="Feedback.html">Feedback</a></li>
+			
+			<li><a href="#" class="active">Sign In/Sign Up</a></li>
+
+		</ul>
+	</nav>
+	<div class="container" id="signUp" style="display:none;">  <!--hiding the page-->
+<h1 class="form-title">Register</h1>
+
+
+<form method="post" action=""> 
+
+<div class="input-group"> 
+
+<i class="fas fa-user"></i>
+
+<input type="text" name="fName" id="fName" placeholder="First Name" required>
+
+<label for="fName">First Name</label> <!--for first name!!-->
+</i>
+
+</div>
+
+
+<div class="input-group">
+	
+	<i class="fas fa-user">
+
+<input type="text" name="lName" id="lName" placeholder="last Name" required>
+
+<label for="lName">last Name</label>
+</i>
+</div>
+
+<div class="input-group">
+
+	<i class="fas fa-envelope"></i>
+
+<input type="email" name="email" id="email" placeholder="Email" required>
+
+<label for="email">Email</label>
+
+</div>
+
+<div class="input-group">
+	<i class="fas fa-lock"></i>
+<input type="password"  id="password" placeholder="password" required>
+
+<label for="password">password</label>
+
+</div>
+<input type="submit" class="btn" value="Sign Up" name="signUp">
+</form>
+
+
+
+
+<p class="or">
+-----------------or-----------------
+</P>
+
+	
+<div class="links">
+	<p> Already Have Account ? </p>
+	<button id="signInButton">Sign In</button>
+
+</div>
+                     
+
+</div>
+
+<!-- other one-->
+
+
+	<div class="container" id= "signIn"> 
+
+<h1 class="form-title">Sign In</h1>
+
+
+
+<form method="post" action=""> 
+
+
+
+<div class="input-group">
+
+	<i class="fas fa-envelope">
+
+</i>
+
+<input type="Email" name="Email" id="Email"s placeholder="Email" required>
+
+<label for="Email">Email</label>
+
+</div>
+
+<div class="input-group">
+	<i class="fas fa-lock"></i>
+<input type="password"  id="password" placeholder="password" required>
+
+<label for="password">password</label>
+
+</div>
+<div>
+
+<p class="Recover">
+	<a href="#">Recover Password</a>
+
+</p>
+<input type="submit" class="btn" value="Sign In" name="Sign In">
+
+</div>
+
+</form>
+
+<p class="or"> </p>
+<P> <center>-----------------or----------------- </center> </P>
+	
+
+<div class="links">
+	<p> Don't have Account yet ? </p>
+	<button id="signUpButton">Sign up</button>
+
+</div>
+</div>
+<script src="Jscript.js"></script>      <!---java link here-->
+
+</body>
+
+</HTML>
